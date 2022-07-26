@@ -6,6 +6,21 @@ nav {
 
 nav {
 	position: absolute;
+	width: 100%;
+}
+
+nav ul {
+	list-style: none;
+	margin: 2rem;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li: first {
+	margin-right: auto;
+}
+nav a {
+text-decoration: none;
 }
 
 section.hero {
@@ -16,26 +31,39 @@ section.hero {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	color: red;
 }
 
 section.hero h1 {
-	font-size: 36 rem;
-	line-height: 12 rem;
-	font-weight: 800;
+	font-size: 9 rem;
+	line-height: 10 rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+section.hero h1 {
+	font-size: 4 rem;
+	line-height: 4 rem;
+	font-weight: 700;
 	margin: 0;
 }
 
 section.hero p {
-	font-size: 20 rem;
-	line-height: 8 rem;
-	font-weight: 200;
+	font-size: 4 rem;
+	line-height: 6 rem;
+	font-weight: 100;
 	margin: 0;
 }
 
 section.hero a {
-	font-weight: bold;
-	padding: 3.0 rem 1.0rem;
-	background: whitesmoke;
+	display: inline-block;
+	font-size: 30;
+	padding: 3.0 rem 2.0rem;
+	background: blue;
 	text-decoration: none;
-	color: #F3BD54;
+	color: red;
+	border-radius: 0.5rem;
+	margin-top: 3rem;
 }
