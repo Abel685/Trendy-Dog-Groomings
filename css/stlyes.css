@@ -1,19 +1,32 @@
 
+h1, h2, h3, h4 
+nav { 
+	font-family: 'Lucida Fax', sans-serif;
+}
+
+nav {
+	position: absolute;
+}
+
 section.hero {
 	width: 100vw;
-	height: 50vh;
-	background: #F3BD54;
+	height: 100vh;
+	background: #5D2C85;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 section.hero h1 {
-	font-size: 12 rem;
+	font-size: 36 rem;
 	line-height: 12 rem;
 	font-weight: 800;
 	margin: 0;
 }
 
 section.hero p {
-	font-size: 8 rem;
+	font-size: 20 rem;
 	line-height: 8 rem;
 	font-weight: 200;
 	margin: 0;
@@ -21,7 +34,7 @@ section.hero p {
 
 section.hero a {
 	font-weight: bold;
-	padding: 1.5 rem 3rem;
+	padding: 3.0 rem 1.0rem;
 	background: whitesmoke;
 	text-decoration: none;
 	color: #F3BD54;
