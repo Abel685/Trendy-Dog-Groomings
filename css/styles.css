@@ -37,8 +37,8 @@ nav a: {
 }
 
 section.hero {
-	width: 50%;
-	height: 400;
+	width: 50vh;
+	height: 50vh;
 	background: lightgreen;
 	text-align: center;
 	display: flex;
@@ -83,7 +83,15 @@ section.hero p {
 	margin: 20;
 }
 
+section.items {
+	position: center;
+	width: 50vh;
+	height: 25vh;
+	background:lightcoral;
+}
+
 section.items a {
+	font: center;
 	font-size: 80 rem;
 	line-height: 80 rem;
 	font-weight: 700;
@@ -95,7 +103,16 @@ section.items p {
 	line-height: 20 rem;
 	font-weight: 700;
 	margin: 30;
+	font: center;
 	background-color: lightgreen;
+}
+
+section.style.types {
+	position: absolute;
+	width: 50vh;
+	height: 15vh;
+	background:
+
 }
 
 section.style.types h2 {
@@ -131,12 +148,12 @@ section.management p {
 	margin: 30;
 	background-color: blue;
 	position: absolute;
-	width: 100vh;
+	width: 60vh;
 	height: 10vh;
 }
 section.management {
-	width: 100vh;
-	height: 15vh;
+	width: 50vh;
+	height: 5vh;
 	background: red;
 	text-align: center;
 	display: flex;
@@ -154,8 +171,8 @@ footer {
 	left: 0;
 	right: 0;
 	background: lightblue;
-	height: 15%;
-	width: 100%;
+	height: 25vh;
+	width: 50vh;
 	padding-top: 0px;
 	color: blue;
 }
