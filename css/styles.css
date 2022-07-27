@@ -38,7 +38,7 @@ nav a: {
 
 section.hero {
 	width: 100%;
-	height: 60%;
+	height: 500;
 	background: lightgreen;
 	text-align: center;
 	display: flex;
@@ -52,44 +52,61 @@ section.hero h1 {
 	font-size: 24 rem;
 	line-height: 10 rem;
 	font-weight: 700;
+	padding: 2.0rem;
 	margin: 10;
 }
 
 @media screen and (max-width: 900px) {
 section.hero h1 {
+	position: center;
 	font-size: 24 rem;
 	line-height: 10 rem;
-	font-weight: 700;
-	margin: 10;
-}
-
-section.hero p {
-	font-size: 50 rem;
-	line-height: 20 rem;
-	font-weight: 700;
+	font-weight: 600;
 	margin: 10;
 }
 
 section.hero a {
 	display: inline-block;
 	font-size: 30;
-	padding: 3.0 rem 2.0rem;
+	padding: 1.0 rem 2.0rem;
 	background: white;
 	text-decoration: none;
 	color: red;
 	border-radius: 0.5rem;
-	margin-top: 3rem;
+	margin-top: 1rem;
 }
 
-footer{
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
-background: lightblue;
-height: 15%;
-width: 100vw;
-padding-top: 0px;
-color: blue;
+section.hero p {
+	font-size: 50 rem;
+	line-height: 20 rem;
+	font-weight: 700;
+	margin: 20;
+}
+
+section.items a {
+	font-size: 80 rem;
+	line-height: 80 rem;
+	font-weight: 700;
+	margin: 20;
+	background-color: orange;
+}
+section.items p {
+	font-size: 50 rem;
+	line-height: 20 rem;
+	font-weight: 700;
+	margin: 30;
+	background-color: lightgreen;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: lightblue;
+	height: 15%;
+	width: 100%;
+	padding-top: 0px;
+	color: blue;
 }
 
