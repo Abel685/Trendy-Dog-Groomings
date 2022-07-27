@@ -8,8 +8,8 @@ nav {
 
 nav {
 	position: absolute;
-	width: 100%;
-	height: 160;
+	width: 50vh;
+	height: 15vh;
 	background: orange;
 }
 
@@ -37,8 +37,8 @@ nav a: {
 }
 
 section.hero {
-	width: 100%;
-	height: 500;
+	width: 50%;
+	height: 400;
 	background: lightgreen;
 	text-align: center;
 	display: flex;
@@ -113,6 +113,7 @@ section.style.types p {
 	font-weight: 700;
 	margin: 30;
 	background-color: blue;
+	margin-left: 6rem;
 }
 
 section.management h3 {
@@ -131,7 +132,20 @@ section.management p {
 	background-color: blue;
 	position: absolute;
 	width: 100vh;
-	height: 1%;
+	height: 10vh;
+}
+section.management {
+	width: 100vh;
+	height: 15vh;
+	background: red;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font: bold;
+	font-size: 32;
+	color: black;
 }
 
 footer {
