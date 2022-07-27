@@ -31,8 +31,8 @@ nav ul li:first-child {
 }
 
 nav a: {
-text-decoration: none;
-padding: 0.5rem;
+	text-decoration: none;
+	padding: 0.5rem;
 
 }
 
@@ -100,5 +100,17 @@ section.items a {
 	margin: 10;
 	text-decoration: none;
 	padding: 0.5rem;
+}
+
+section.style.types h3 {
+	width: 100%;
+	height: 60%;
+	background: lightgreen;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: red;
 }
 
