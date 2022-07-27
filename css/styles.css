@@ -80,6 +80,18 @@ section.hero a {
 	border-radius: 0.5rem;
 	margin-top: 3rem;
 }
+footer{
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+background: orange;
+height: auto;
+width: 100vw;
+font-family: open sans-serif;
+padding-top: 40px;
+color: blue;
+}
 
 .footer-content {
 	display: flex;
@@ -99,4 +111,15 @@ max-width: 500px;
 margin: 10px auto;
 line-height: 28px;
 font-size: 14px;
+}
+.footer-bottom {
+background-color: blue;
+width: 100vw;
+padding: 20px 0;
+text-align: center;
+}
+.footer-bottom p{
+font-size: 14px;
+word-spacing: 2px;
+text-transform: uppercase;
 }
