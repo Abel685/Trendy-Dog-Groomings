@@ -72,12 +72,12 @@ section.hero h1 {
 section.hero a {
 	display: inline-block;
 	font-size: 30;
-	padding: 1.0rem 1.0rem;
+	
 	background: white;
 	text-decoration: none;
 	color: red;
 	border-radius: 0.5rem;
-	margin-top: 1rem;
+	margin-top: 0rem;
 }
 
 section.hero p {
@@ -89,33 +89,51 @@ section.hero p {
 
 section.items {
 	width: 100vw;
-	height: 15vh;
-	background:lightcoral;
+	height: 10vh;
+	background:white;
+	background-color: orange;
 }
 
 section.items a {
 	font-weight: 700;
 	margin: 0rem;
-	padding: 10;
-	display: inline-flex;
+	padding: 010;
+	display: inline-block;
 	align-items: center;
 }
 
 section.items p {
-	font-weight: 700;
-	margin: 0;
-	background-color: white;
+	font-weight: 900;
+	margin: 16px;
+	background-color: orange;
 	align-items: center;
+	justify-content: center;
+}
+
+section.style.types {
+	width: 100vw;
+	height: 26vh;
+	background: blue;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+section.style.types h2 {
+	font-weight: 900;
+	margin: 16px;
+	align-items: center;
+	justify-content: center;
 }
 
 
 footer {
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	background: lightblue;
-	height: 10vh;
+	height: 13vh;
 	width: 100vw;
 	padding-top: 0rem;
 	color: blue;
