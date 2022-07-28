@@ -108,8 +108,8 @@ section.items p {
 	line-height: 20 rem;
 	font-weight: 700;
 	margin: 5;
-	font: center;
-	background-color: lightgreen;
+	background-color: olive;
+	align-items: center;
 }
 
 section.style.types {
@@ -141,12 +141,12 @@ section.management h3 {
 	font-size: 80 rem;
 	line-height: 80 rem;
 	font-weight: 800;
-	margin: 10;
+	margin: 20;
 	background-color: red;
 }
 
 section.management p {
-	font-size: 50 rem;
+	font-size: 20 rem;
 	line-height: 20 rem;
 	font-weight: 200;
 	margin: 10;
@@ -158,7 +158,7 @@ section.management p {
 }
 section.management {
 	width: 100vw;
-	height: 5vh;
+	height: 15vh;
 	background: red;
 	text-align: center;
 	display: flex;
