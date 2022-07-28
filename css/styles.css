@@ -8,7 +8,7 @@ nav {
 
 nav {
 	position: absolute;
-	width: 50vh;
+	width: 100vw;
 	height: 15vh;
 	background: orange;
 }
@@ -37,7 +37,7 @@ nav a: {
 }
 
 section.hero {
-	width: 50vh;
+	width: 100vw;
 	height: 50vh;
 	background: lightgreen;
 	text-align: center;
@@ -85,8 +85,8 @@ section.hero p {
 
 section.items {
 	position: center;
-	width: 50vh;
-	height: 25vh;
+	width: 100vw;
+	height: 15vh;
 	background:lightcoral;
 }
 
@@ -96,7 +96,7 @@ section.items a {
 	line-height: 80 rem;
 	font-weight: 700;
 	margin: 20;
-	padding: 1rem;
+	padding: 30rem;
 	margin: 0rem;
 	padding: 10;
 	display: flex;
@@ -107,14 +107,14 @@ section.items p {
 	font-size: 50 rem;
 	line-height: 20 rem;
 	font-weight: 700;
-	margin: 30;
+	margin: 5;
 	font: center;
 	background-color: lightgreen;
 }
 
 section.style.types {
 	position: absolute;
-	width: 50vh;
+	width: 50vw;
 	height: 15vh;
 	background:
 
@@ -125,8 +125,7 @@ section.style.types h2 {
 	line-height: 80 rem;
 	font-weight: 700;
 	margin: 20;
-	background-color: blue;
-	position: center;
+	background-color: gold;
 }
 
 section.style.types p {
@@ -142,7 +141,7 @@ section.management h3 {
 	font-size: 80 rem;
 	line-height: 80 rem;
 	font-weight: 800;
-	margin: 20;
+	margin: 10;
 	background-color: red;
 }
 
@@ -150,14 +149,15 @@ section.management p {
 	font-size: 50 rem;
 	line-height: 20 rem;
 	font-weight: 200;
-	margin: 30;
-	background-color: blue;
+	margin: 10;
+	background-color: greenyellow;
 	position: absolute;
-	width: 60vh;
-	height: 10vh;
+	width: 30vw;
+	height: 5vh;
+	text-align: center;
 }
 section.management {
-	width: 50vh;
+	width: 100vw;
 	height: 5vh;
 	background: red;
 	text-align: center;
@@ -177,8 +177,12 @@ footer {
 	right: 0;
 	background: lightblue;
 	height: 10vh;
-	width: 50vh;
+	width: 100vw;
 	padding-top: 1rem;
 	color: blue;
+	text-align:left;
 }
 
+footer img {
+	width: 70px;
+}
